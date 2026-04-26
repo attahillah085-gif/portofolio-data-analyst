@@ -16,11 +16,25 @@ st.set_page_config(page_title="Athaillah | Data Portfolio", page_icon="📈", la
 
 # Custom CSS untuk mempercantik UI
 # Custom CSS untuk mempercantik UI
+# Custom CSS untuk mempercantik UI (Versi Cloud-Safe)
 st.markdown("""
     <style>
-    .main { background-color: #f5f7f9; }
-    .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-    h1 { color: #1E3A8A; }
+    /* Warna background utama */
+    [data-testid="stAppViewContainer"] { 
+        background-color: #f5f7f9; 
+    }
+    /* Warna kotak metrik angka */
+    [data-testid="stMetric"] { 
+        background-color: #ffffff; 
+        padding: 15px; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+        border-left: 5px solid #1E3A8A;
+    }
+    /* Warna judul utama */
+    h1 { 
+        color: #1E3A8A !important; 
+    }
     </style>
     """, unsafe_allow_html=True)
 
