@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 # ==========================================
-# 🎨 SETTING HALAMAN & TEMA
+# 🎨 SETTING HALAMAN & TEMA CLOUD-SAFE
 # ==========================================
 st.set_page_config(page_title="Athaillah | Data Portfolio", page_icon="📈", layout="wide")
 
